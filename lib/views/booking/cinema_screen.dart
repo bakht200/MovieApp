@@ -18,7 +18,7 @@ class _CinemaScreenState extends State<CinemaScreen> {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
       bottomNavigationBar: Padding(
-        padding: EdgeInsets.all(12.w),
+        padding: EdgeInsets.only(bottom: 20.h, left: 12.w, right: 12.w),
         child: GestureDetector(
           onTap: () {
             OneContext().pushNamed(AppRoutes.BOOKSEAT);

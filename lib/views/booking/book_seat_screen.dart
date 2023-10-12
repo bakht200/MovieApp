@@ -1039,7 +1039,7 @@ class _BookSeatScreenState extends State<BookSeatScreen> {
         ),
       ),
       bottomNavigationBar: Padding(
-        padding: EdgeInsets.only(bottom: 12.h, left: 12.w, right: 12.w),
+        padding: EdgeInsets.only(bottom: 20.h, left: 12.w, right: 12.w),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
